@@ -369,6 +369,8 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .team-social-link:hover,
@@ -565,9 +567,12 @@ overflow: hidden;
   gap: 16px;
 }
 
-.footer-sotial-link:hover,
+.footer-sotial-link:hover{
+  background-color: #31d0aa;
+}
+
 .footer-social-link:focus {
-background-color: #31d0aa;
+ background-color: #31d0aa;
 }
 
 .footer-icon {
